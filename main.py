@@ -2,7 +2,7 @@ import telebot
 from threading import Timer
 import time  # Импортируем модуль времени
 
-bot = telebot.TeleBot("6627517027:AAFMSgIXBrGeOhMUKjMHpgc2gl6dqbZrz1A", parse_mode="HTML")
+bot = telebot.TeleBot("Token", parse_mode="HTML")
 
 
 chat_ids = "@nmrgtest"
